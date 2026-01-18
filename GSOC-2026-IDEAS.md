@@ -1,0 +1,162 @@
+# Google Summer of Code 2026 - Project Ideas
+
+Welcome to the pointblank-club GSoC 2026 ideas page. This document consolidates project ideas across all our repositories for prospective GSoC contributors.
+
+## About pointblank-club
+
+pointblank-club is an organization focused on systems programming, security tools, and compiler optimization. Our projects span container runtimes, binary analysis, system hardening, and machine learning for compilers.
+
+## How to Get Started
+
+1. **Explore our repositories** - Familiarize yourself with the projects that interest you
+2. **Read the documentation** - Each repository has a README and CONTRIBUTING.md
+3. **Join the community** - Participate in GitHub Discussions and Issues
+4. **Start small** - Look for `good first issue` labels to make initial contributions
+5. **Reach out to mentors** - Discuss your ideas and get feedback early
+
+## Project Ideas
+
+---
+
+### kettle: Add Container Lifecycle Management and Kubernetes Support
+
+**Repository:** [pointblank-club/kettle](https://github.com/pointblank-club/kettle)
+
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/kettle/blob/main/GSOC-2026.md)
+
+#### Summary
+
+Extend kettle with full container lifecycle management (create, start, stop, delete) and add Kubernetes integration to run and manage containers as pods.
+
+#### Description
+
+This project focuses on evolving kettle from a minimal runtime engine into a usable container runtime with clear lifecycle primitives and basic Kubernetes compatibility. The work includes wiring lifecycle on top of low-level runtimes, integrating with OCI concepts, and adding a Kubernetes-facing layer to manage containers through standard tooling.
+
+#### Details
+
+| Attribute | Value |
+|-----------|-------|
+| Skill level | Intermediate |
+| Language | Go |
+| Expected size | Medium |
+| Mentors | Rahul K (rahul.u.india[at]gmail[.]com) |
+
+#### Relevant Links
+
+- [containerd](https://github.com/containerd/containerd)
+- [runc](https://github.com/opencontainers/runc)
+
+---
+
+### vestigo: Ideas Coming Soon
+
+**Repository:** [pointblank-club/vestigo](https://github.com/pointblank-club/vestigo)
+
+Vestigo is a firmware analysis and crypto-detection pipeline built with Python. Potential GSoC project areas include:
+
+- Expanding firmware format support
+- Improving ML-based crypto detection accuracy
+- Adding new analysis backends (Ghidra, Binary Ninja integration)
+- Building a web-based analysis dashboard
+
+Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+---
+
+### oaas: Ideas Coming Soon
+
+**Repository:** [pointblank-club/oaas](https://github.com/pointblank-club/oaas)
+
+oaas (Obfuscation As A Service) is an LLVM-based binary obfuscation toolchain. Potential GSoC project areas include:
+
+- New MLIR obfuscation passes
+- Improved Windows PE binary support
+- Enhanced reporting and metrics visualization
+- Integration with additional compiler frontends
+
+Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+---
+
+### syshardn: Ideas Coming Soon
+
+**Repository:** [pointblank-club/syshardn](https://github.com/pointblank-club/syshardn)
+
+syshardn is a multi-platform system hardening tool supporting Linux and Windows. Potential GSoC project areas include:
+
+- Expanding hardening rule coverage
+- Adding macOS support
+- Building a configuration management interface
+- Compliance reporting (CIS benchmarks, STIG)
+
+Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+---
+
+### IRIS: Ideas Coming Soon
+
+**Repository:** [pointblank-club/IRIS](https://github.com/pointblank-club/IRIS)
+
+IRIS is an ML-guided RISC-V compiler optimization project. Potential GSoC project areas include:
+
+- Expanding the training program corpus
+- New feature extraction methods for LLVM IR
+- Model architecture improvements
+- Support for additional target architectures
+
+Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+---
+
+### edgeFlow: Ideas Coming Soon
+
+**Repository:** [pointblank-club/edgeFlow](https://github.com/pointblank-club/edgeFlow)
+
+edgeFlow is a DSL for optimizing ML models on edge devices. Potential GSoC project areas include:
+
+- Expanding hardware backend support
+- New optimization passes for edge deployment
+- Quantization and pruning improvements
+- Integration with popular ML frameworks
+
+Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+---
+
+## General Information for Applicants
+
+### Application Tips
+
+- Start contributing early - familiarity with the codebase strengthens your application
+- Propose realistic timelines based on the expected project size
+- Demonstrate understanding of the technical challenges involved
+- Show how your background prepares you for the project
+- Be specific about deliverables and milestones
+
+### Mentor Contact
+
+For questions about specific projects, reach out via:
+- GitHub Issues in the relevant repository
+- GitHub Discussions (where available)
+- Direct mentor contact (listed in project details)
+
+### Organization Members
+
+- [@rishabhlakhotia](https://github.com/rishabhlakhotia)
+- [@SkySingh04](https://github.com/SkySingh04)
+- [@slashexx](https://github.com/slashexx)
+
+---
+
+## Contributing New Ideas
+
+If you have a project idea that isn't listed here:
+
+1. Open an issue in the relevant repository describing your idea
+2. Include technical details, expected outcomes, and estimated scope
+3. Discuss with maintainers to refine the proposal
+4. If accepted, it may be added to this list
+
+---
+
+We look forward to working with GSoC 2026 contributors. Good luck with your applications!
