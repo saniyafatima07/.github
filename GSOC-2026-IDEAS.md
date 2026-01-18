@@ -39,7 +39,7 @@ This project focuses on evolving kettle from a minimal runtime engine into a usa
 | Skill level | Intermediate |
 | Language | Go |
 | Expected size | Medium |
-| Mentors | Rahul K (rahul.u.india[at]gmail[.]com) |
+| Mentors | Rahul K ([@rahulk789](https://github.com/rahulk789), rahul.u.india[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -69,7 +69,7 @@ This project focuses on increasing the "Success Rate" of emulation by building a
 | Skill level | Intermediate |
 | Languages | Python, Assembly (ARM/MIPS) |
 | Expected size | Large (350 hours) |
-| Mentors | Kamini Banait (kaminibanait03[at]email[.]com) |
+| Mentors | Kamini Banait ([@kamini08](https://github.com/kamini08), kaminibanait03[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -97,9 +97,9 @@ This project focuses on closing the loop between "Guessing" and "Proving" by wri
 | Attribute | Value |
 |-----------|-------|
 | Skill level | Intermediate |
-| Languages | Python, JavaScript, Java (Ghidra) |
+| Languages | Python, JavaScript (Frida), Java (Ghidra) |
 | Expected size | Medium (175 hours) |
-| Mentors | Kamini Banait (kaminibanait03[at]email[.]com) |
+| Mentors | Kamini Banait ([@kamini08](https://github.com/kamini08), kaminibanait03[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -129,7 +129,7 @@ This project focuses on "Behavioral Identification" by building a tracer on top 
 | Skill level | Intermediate |
 | Languages | Python, C++ |
 | Expected size | Large (350 hours) |
-| Mentors | Kamini Banait (kaminibanait03[at]email[.]com) |
+| Mentors | Kamini Banait ([@kamini08](https://github.com/kamini08), kaminibanait03[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -159,7 +159,7 @@ Currently oaas only supports source-to-binary obfuscation. This project enables 
 | Skill level | Intermediate |
 | Languages | Python, C++, Bash |
 | Expected size | Medium (~175 hours) |
-| Mentors | TBD |
+| Mentors | Akash Singh ([@SkySingh04](https://github.com/SkySingh04), akashsingh2210670[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -186,7 +186,7 @@ Extend syshardn with scheduled scan execution, persistent scan history storage, 
 | Skill level | Intermediate |
 | Language | Python |
 | Expected size | Medium (~175 hours) |
-| Mentors | TBD |
+| Mentors | R Aswin ([@Aswinr24](https://github.com/Aswinr24), aswinr242004[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -214,7 +214,7 @@ Add macOS support with platform detection, macOS executor (check/apply/rollback)
 | Language | Python |
 | Expected size | Small (~90 hours) |
 | Prerequisites | Access to macOS; familiarity with macOS security tools |
-| Mentors | TBD |
+| Mentors | R Aswin ([@Aswinr24](https://github.com/Aswinr24), aswinr242004[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -243,7 +243,7 @@ IRis currently relies on static scalar metrics (e.g., instruction counts, loop d
 | Skill level | Intermediate |
 | Languages | Python, PyTorch (Deep Learning), Graph Neural Networks (PyTorch Geometric/DGL), Compiler Theory (LLVM IR structure) |
 | Expected size | 350 hours |
-| Mentors | Shubhang, Inchara, Yash |
+| Mentors | Shubhang ([@Zrahay](https://github.com/Zrahay), shubhangsinha44[at]gmail[.]com), Inchara ([@Incharajayaram](https://github.com/Incharajayaram), incharajayaram2020[at]gmail[.]com), Yash ([@YashSuthar983](https://github.com/YashSuthar983), yashsuthar983[at]gmail[.]com) |
 
 ---
 
@@ -268,7 +268,7 @@ This project focuses on writing new backend modules for the EdgeFlow compiler by
 | Skill level | Intermediate |
 | Language | C++ |
 | Expected size | Medium (175 hours) |
-| Mentors | Kamini Banait (kaminibanait03[at]gmail[.]com) |
+| Mentors | Kamini Banait ([@kamini08](https://github.com/kamini08), kaminibanait03[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -298,7 +298,7 @@ This project focuses on building developer tooling to reduce configuration error
 | Skill level | Intermediate |
 | Languages | TypeScript, Python/C++ |
 | Expected size | Medium (175 hours) |
-| Mentors | Kamini Banait (kaminibanait03[at]gmail[.]com) |
+| Mentors | Kamini Banait ([@kamini08](https://github.com/kamini08), kaminibanait03[at]gmail[.]com) |
 
 #### Relevant Links
 
@@ -328,7 +328,7 @@ This project focuses on improving the efficiency of the generated binary code by
 | Skill level | Intermediate |
 | Language | C++ |
 | Expected size | Large (350 hours) |
-| Mentors | Madhur Kumar (madhurkumar004[at]gmail[.]com) |
+| Mentors | Madhur Kumar ([@MadhurKumar004](https://github.com/MadhurKumar004), madhurkumar004[at]gmail[.]com) |
 
 #### Relevant Links
 
