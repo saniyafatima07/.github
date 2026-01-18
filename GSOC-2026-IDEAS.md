@@ -109,18 +109,29 @@ Interested contributors should explore the repository and open a discussion to p
 
 ---
 
-### IRIS: Ideas Coming Soon
+### IRis: Graph Neural Networks (GNN) for Structure-Aware LLVM IR Analysis
 
-**Repository:** [pointblank-club/IRIS](https://github.com/pointblank-club/IRIS)
+**Repository:** [zrahay/IRis](https://github.com/zrahay/IRis)
 
-IRIS is an ML-guided RISC-V compiler optimization project. Potential GSoC project areas include:
+**Full proposal:** [GSOC-2026.md](https://github.com/zrahay/IRis/blob/main/GSOC-2026.md)
 
-- Expanding the training program corpus
-- New feature extraction methods for LLVM IR
-- Model architecture improvements
-- Support for additional target architectures
+#### Summary
 
-Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+Enhance the IRis optimization pipeline by integrating Graph Neural Networks (GNNs) to capture the structural and semantic relationships within LLVM IR, overcoming the limitations of static scalar feature vectors.
+
+#### Description
+
+IRis currently relies on static scalar metrics (e.g., instruction counts, loop depths) which discard critical structural information like control flow and data dependencies. This can lead to structurally distinct programs yielding identical feature vectors, confusing the predictive model and limiting optimization performance. This project aims to develop a robust pipeline to parse LLVM IR (.ll files) and construct representative graphs with nodes for Basic Blocks or individual instructions and edges for Control Flow Graph (CFG) and Data Flow Graph (DFG) connections. A GNN Encoder will be architected and integrated into the existing PassFormer model to process these graphs and generate structure-aware embedding vectors, serving as rich inputs for the Transformer Decoder to predict optimal pass sequences. The GNN-enhanced model will be trained and evaluated against the scalar-based baseline to demonstrate improved generalization on unseen programs and validate superior optimization metrics (execution time/binary size reduction) on the RISC-V target.
+
+#### Details
+
+| Attribute | Value |
+|-----------|-------|
+| Skill level | Medium-Hard |
+| Languages | Python, PyTorch (Deep Learning), Graph Neural Networks (PyTorch Geometric/DGL), Compiler Theory (LLVM IR structure) |
+| Expected size | 350 hours |
+| Mentors | Shubhang, Inchara, Yash |
+
 
 ---
 
