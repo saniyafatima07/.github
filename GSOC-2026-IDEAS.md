@@ -127,7 +127,7 @@ IRis currently relies on static scalar metrics (e.g., instruction counts, loop d
 
 | Attribute | Value |
 |-----------|-------|
-| Skill level | Medium-Hard |
+| Skill level | Intermediate |
 | Languages | Python, PyTorch (Deep Learning), Graph Neural Networks (PyTorch Geometric/DGL), Compiler Theory (LLVM IR structure) |
 | Expected size | 350 hours |
 | Mentors | Shubhang, Inchara, Yash |
