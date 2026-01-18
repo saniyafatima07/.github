@@ -54,14 +54,22 @@ This project focuses on evolving kettle from a minimal runtime engine into a usa
 
 **Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/vestigo/blob/main/GSOC-2026.md)
 
-Vestigo is a firmware analysis and crypto-detection pipeline built with Python. Potential GSoC project areas include:
+#### Summary
 
-- Expanding firmware format support
-- Improving ML-based crypto detection accuracy
-- Adding new analysis backends (Ghidra, Binary Ninja integration)
-- Building a web-based analysis dashboard
+Vestigo is a firmware analysis and crypto-detection pipeline built with Python. Potential GSoC project areas include expanding firmware format support, improving ML-based crypto detection accuracy, adding new analysis backends, and building a web-based analysis dashboard.
+
+#### Description
 
 Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+#### Details
+
+| Attribute | Value |
+|-----------|-------|
+| Skill level | TBD |
+| Language | Python |
+| Expected size | TBD |
+| Mentors | TBD |
 
 ---
 
@@ -172,7 +180,6 @@ IRis currently relies on static scalar metrics (e.g., instruction counts, loop d
 | Expected size | 350 hours |
 | Mentors | Shubhang, Inchara, Yash |
 
-
 ---
 
 ### edgeFlow: Implement Advanced IR Optimization Passes
@@ -181,14 +188,22 @@ IRis currently relies on static scalar metrics (e.g., instruction counts, loop d
 
 **Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/edgeFlow/blob/main/GSOC-2026.md)
 
-edgeFlow is a DSL for optimizing ML models on edge devices. Potential GSoC project areas include:
+#### Summary
 
-- Expanding hardware backend support
-- New optimization passes for edge deployment
-- Quantization and pruning improvements
-- Integration with popular ML frameworks
+edgeFlow is a DSL for optimizing ML models on edge devices. Potential GSoC project areas include expanding hardware backend support, new optimization passes for edge deployment, quantization and pruning improvements, and integration with popular ML frameworks.
+
+#### Description
 
 Interested contributors should explore the repository and open a discussion to propose specific project ideas.
+
+#### Details
+
+| Attribute | Value |
+|-----------|-------|
+| Skill level | TBD |
+| Language | TBD |
+| Expected size | TBD |
+| Mentors | TBD |
 
 ---
 
