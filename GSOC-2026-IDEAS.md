@@ -14,211 +14,173 @@ pointblank-club is an organization focused on systems programming, security tool
 4. **Start small** - Look for `good first issue` labels to make initial contributions
 5. **Reach out to mentors** - Discuss your ideas and get feedback early
 
-# Project Ideas
+## Project Ideas
 
 ---
 
-## kettle: Add Container Lifecycle Management and Kubernetes Support
+### kettle: Add Container Lifecycle Management and Kubernetes Support
 
-**Repository:** https://github.com/pointblank-club/kettle  
-**Full proposal:** https://github.com/pointblank-club/kettle/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/kettle](https://github.com/pointblank-club/kettle)  
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/kettle/blob/main/GSOC-2026.md)
 
-### Summary
+#### Summary
 
 Extend kettle with full container lifecycle management (create, start, stop, delete) and add Kubernetes integration to run and manage containers as pods.
 
-### Description
+#### Description
 
-This project evolves kettle from a minimal runtime engine into a usable container runtime with clear lifecycle primitives and basic Kubernetes compatibility. The work includes wiring lifecycle operations on top of low-level runtimes (runc/libcontainer), integrating OCI concepts, and adding a Kubernetes-facing layer to manage containers through standard tooling.
+This project focuses on evolving kettle from a minimal runtime engine into a usable container runtime with clear lifecycle primitives and basic Kubernetes compatibility. The work includes wiring lifecycle on top of low-level runtimes, integrating with OCI concepts, and adding a Kubernetes-facing layer to manage containers through standard tooling.
 
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Language | Go |
 | Expected size | Medium |
 | Mentors | Rahul K (rahul.u.india[at]gmail[.]com) |
 
-### Relevant Links
+#### Relevant Links
 
-- https://github.com/containerd/containerd  
-- https://github.com/opencontainers/runc  
+- [containerd](https://github.com/containerd/containerd)  
+- [runc](https://github.com/opencontainers/runc)
 
 ---
 
-## vestigo: Automated Peripheral Modeling
+### vestigo: Automated Peripheral Modeling
 
-**Repository:** https://github.com/pointblank-club/vestigo  
-**Full proposal:** https://github.com/pointblank-club/vestigo/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/vestigo](https://github.com/pointblank-club/vestigo)  
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/vestigo/blob/main/GSOC-2026.md)
 
-### Summary
+Vestigo is a firmware analysis and crypto-detection pipeline built with Python.
 
-Extend Vestigo’s firmware analysis pipeline by improving format support, crypto-detection accuracy, and analysis extensibility.
-
-### Description
-
-Vestigo is a firmware analysis and cryptographic primitive detection pipeline. This project focuses on expanding supported firmware formats, improving ML-based crypto detection accuracy, integrating additional analysis backends (such as Ghidra or Binary Ninja), and optionally adding a web-based dashboard for analysis results.
-
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Language | Python |
 | Expected size | Medium |
 | Mentors | TBD |
 
-### Relevant Links
-
-- https://ghidra-sre.org/  
-- https://binary.ninja/  
-
 ---
 
-## oaas: Windows PE Binary-to-Binary Obfuscation Pipeline
+### oaas: Windows PE Binary-to-Binary Obfuscation Pipeline
 
-**Repository:** https://github.com/pointblank-club/oaas  
-**Full proposal:** https://github.com/pointblank-club/oaas/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/oaas](https://github.com/pointblank-club/oaas)  
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/oaas/blob/main/GSOC-2026.md)
 
-### Summary
+#### Summary
 
-Implement a binary-to-binary obfuscation pipeline for Windows PE executables using LLVM-based lifting and recompilation.
+Implement a working binary-to-binary obfuscation pipeline for Windows PE executables.
 
-### Description
+#### Description
 
-Currently, oaas supports only source-to-binary obfuscation. This project enables obfuscating existing Windows PE binaries when source code is unavailable. The pipeline extracts control-flow graphs using Ghidra, lifts binaries to LLVM IR using McSema or RetDec, applies OLLVM obfuscation passes, and recompiles the result into a working obfuscated PE binary.
+Currently oaas only supports source-to-binary obfuscation. This project enables obfuscating existing binaries where source code is unavailable. The pipeline uses Ghidra for CFG extraction, McSema/RetDec for lifting to LLVM IR, applies OLLVM passes, and recompiles back to a working PE.
 
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Languages | Python, C++, Bash |
 | Expected size | Medium (~175 hours) |
 | Mentors | TBD |
 
-### Relevant Links
+#### Relevant Links
 
-- https://github.com/lifting-bits/mcsema  
-- https://github.com/avast/retdec  
-- https://ghidra-sre.org/  
+- [McSema](https://github.com/lifting-bits/mcsema)  
+- [RetDec](https://github.com/avast/retdec)  
+- [Ghidra](https://ghidra-sre.org/)
 
 ---
 
-## syshardn: Scheduled Compliance Scans and History
+### syshardn: Scheduled Compliance Scans and History
 
-**Repository:** https://github.com/pointblank-club/syshardn  
-**Full proposal:** https://github.com/pointblank-club/syshardn/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/syshardn](https://github.com/pointblank-club/syshardn)  
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/syshardn/blob/main/GSOC-2026.md)
 
-### Summary
+#### Summary
 
-Add scheduled compliance scans, persistent scan history, and artifact export to syshardn.
+Extend syshardn with scheduled scan execution, persistent scan history storage, and artifact export.
 
-### Description
-
-This project extends syshardn with the ability to run scans on a schedule and persist historical results. It includes integrating with native OS schedulers (cron, systemd timers, Windows Task Scheduler), storing scan history in a structured format, and exporting scan artifacts for auditing and compliance workflows.
-
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Language | Python |
 | Expected size | Medium (~175 hours) |
 | Mentors | TBD |
 
-### Relevant Links
+#### Relevant Links
 
-- https://www.freedesktop.org/software/systemd/man/systemd.timer.html  
-- https://man7.org/linux/man-pages/man5/crontab.5.html  
-- https://learn.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page  
+- [systemd timers](https://www.freedesktop.org/software/systemd/man/systemd.timer.html)  
+- [cron](https://man7.org/linux/man-pages/man5/crontab.5.html)  
+- [Windows Task Scheduler](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page)
 
 ---
 
-## syshardn: macOS Platform Support
+### syshardn: macOS Platform Support
 
-**Repository:** https://github.com/pointblank-club/syshardn  
-**Full proposal:** https://github.com/pointblank-club/syshardn/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/syshardn](https://github.com/pointblank-club/syshardn)
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/syshardn/blob/main/GSOC-2026.md)
 
-### Summary
+#### Summary
 
-Add native macOS platform support to syshardn with a dedicated executor and rule pack.
+Add macOS support with platform detection, macOS executor, and a focused macOS rule pack.
 
-### Description
-
-This project introduces macOS support to syshardn by implementing platform detection, a macOS-specific executor (check/apply/rollback), and a focused rule pack covering password policy, screen lock, firewall configuration, and FileVault.
-
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Language | Python |
 | Expected size | Small (~90 hours) |
-| Prerequisites | Access to macOS; familiarity with macOS security tooling |
+| Prerequisites | Access to macOS; familiarity with macOS security tools |
 | Mentors | TBD |
 
-### Relevant Links
+#### Relevant Links
 
-- https://www.cisecurity.org/benchmark/apple_os  
+- [CIS Benchmarks for macOS](https://www.cisecurity.org/benchmark/apple_os)
 
 ---
 
-## IRis: GNN-Based Structure-Aware LLVM IR Analysis
+### IRis: Graph Neural Networks (GNN) for Structure-Aware LLVM IR Analysis
 
-**Repository:** https://github.com/pointblank-club/IRis  
-**Full proposal:** https://github.com/pointblank-club/IRis/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/IRis](https://github.com/pointblank-club/IRis)  
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/IRIS/blob/main/GSOC-2026.md)
 
-### Summary
+#### Summary
 
 Integrate Graph Neural Networks (GNNs) into the IRis optimization pipeline for structure-aware LLVM IR analysis.
 
-### Description
-
-IRis currently relies on scalar feature vectors that discard structural information such as control flow and data dependencies. This project introduces graph-based representations of LLVM IR, constructs CFG and DFG graphs, and integrates a GNN encoder into the existing PassFormer pipeline to improve optimization prediction accuracy.
-
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Languages | Python, PyTorch, GNNs, LLVM IR |
-| Expected size | Large (~350 hours) |
+| Expected size | 350 hours |
 | Mentors | Shubhang, Inchara, Yash |
-
-### Relevant Links
-
-- https://llvm.org/  
-- https://pytorch-geometric.readthedocs.io/  
 
 ---
 
-## edgeFlow: Advanced IR Optimization Passes
+### edgeFlow: Implement Advanced IR Optimization Passes
 
-**Repository:** https://github.com/pointblank-club/edgeFlow  
-**Full proposal:** https://github.com/pointblank-club/edgeFlow/blob/main/GSOC-2026.md
+**Repository:** [pointblank-club/edgeFlow](https://github.com/pointblank-club/edgeFlow)  
+**Full proposal:** [GSOC-2026.md](https://github.com/pointblank-club/edgeFlow/blob/main/GSOC-2026.md)
 
-### Summary
+edgeFlow is a DSL for optimizing ML models on edge devices.
 
-Implement advanced IR-level optimization passes and backend support for edge-deployed ML workloads.
-
-### Description
-
-edgeFlow is a DSL for optimizing machine-learning models for edge devices. This project focuses on implementing new optimization passes, expanding hardware backend support, improving quantization and pruning techniques, and integrating edgeFlow with popular ML frameworks.
-
-### Details
+#### Details
 
 | Attribute | Value |
-|---------|------|
+|-----------|-------|
 | Skill level | Intermediate |
 | Language | Python / ML tooling |
 | Expected size | Medium |
 | Mentors | TBD |
-
-### Relevant Links
-
-- https://llvm.org/  
 
 ---
 
