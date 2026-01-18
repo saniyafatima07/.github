@@ -140,12 +140,6 @@ For questions about specific projects, reach out via:
 - GitHub Discussions (where available)
 - Direct mentor contact (listed in project details)
 
-### Organization Members
-
-- [@rishabhlakhotia](https://github.com/rishabhlakhotia)
-- [@SkySingh04](https://github.com/SkySingh04)
-- [@slashexx](https://github.com/slashexx)
-
 ---
 
 ## Contributing New Ideas
