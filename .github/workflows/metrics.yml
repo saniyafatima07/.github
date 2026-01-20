@@ -10,7 +10,22 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Header
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install requests
+
+      - name: Generate stats.json
+        working-directory: .github/scripts
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          python3 generate_stats_svg.py
+
+      - name: Generate SVG from stats.json
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -21,8 +36,9 @@ jobs:
           #  - read:org  (for organization related metrics)
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: repositories
+          token: ${{ secrets.TOKEN }}
+          base: json
+          file: ./github/scripts/stats.json
           plugin_followup: yes
           plugin_followup_archived: no
-          user: pbdsce
+          user: pointblank-club
