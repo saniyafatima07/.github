@@ -16,7 +16,7 @@ Building practical open source alternatives through collaborative innovation. Sp
   &nbsp;
   <a href="https://discord.gg/hw4Muqjbbu" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
   &nbsp;
-  <a href="https://instagram.com/pointblank_club" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://instagram.com/pointblank_club_" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
   &nbsp;
 </p>
 <div align="center">
@@ -28,14 +28,14 @@ Building practical open source alternatives through collaborative innovation. Sp
 
 ## 🚀 What We Do
 
-We're a tech collective building open source alternatives and developer tools, with a focus on security, compilers, and dev tooling. Our projects range from container runtimes to firmware analysis tools—all built collaboratively, all production-ready.
+We're a tech collective building open source alternatives and developer tools, with a focus on security, compilers, and dev tooling. Our projects range from container runtimes to firmware analysis tools, all built collaboratively and production-ready.
 
 **Core Domains:** Security • Compilers • Developer Tooling • Competitive Programming • Web & Mobile Development • ML/AI • DevOps
 
 ## 🌟 Community Highlights
 
 - **Thriving Open Source Community** with members contributing to organizations like CNCF, AsyncAPI, OpenMRS, Git, Webpack, Arduino, Prometheus, and more
-- **Co-organized IICT 2025** (Innovations In Compiler Technology Workshop) at IISc Bangalore—an ACM sponsored event with India's first compiler-themed hackathon
+- **Co-organized IICT 2025** (Innovations In Compiler Technology Workshop) at IISc Bangalore, an ACM sponsored event with India's first compiler-themed hackathon
 - **1000+ participants** across multiple editions of PBCTF (Point Blank Capture The Flag)
 - **100+ Technical Workshops** on open source, security, DevOps, compilers, and more
 - **100+ Weekly Coding Contests** (PB Hustle)
@@ -43,7 +43,7 @@ We're a tech collective building open source alternatives and developer tools, w
 
 ## 🎯 Get Involved
 
-Whether you're interested in security research, building compilers, creating developer tools, or contributing to open source—there's a place for you here.
+Whether you're interested in security research, building compilers, creating developer tools or contributing to open source, there's a place for you here.
 
 - **New to Open Source?** Check out our [good first issues](https://github.com/search?q=org%3Apointblank-club+label%3A%22good+first+issue%22&type=issues)
 - **Want to Contribute?** Read our [Contributing Guidelines](https://github.com/pointblank-club/.github/blob/main/CONTRIBUTING.md)
